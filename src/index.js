@@ -1,7 +1,7 @@
 let ProxiedMailApi = require('proxiedmail-api');
 
 function register(Cypress) {
-    Cypress.Commands.add('proxiedmail' , ((config) => {
+    Cypress.Commands.add('proxiedmail', ((config) => {
         const apiKey = config?.apiKey ?? Cypress.env('PROXIEDMAIL_API_KEY');
         if (!apiKey) {
             throw new Error(
