@@ -6,7 +6,7 @@ function register(Cypress) {
         if (!apiKey) {
             throw new Error(
                 'Error no ProxiedMail API Key. Please either pass the ProxiedMail command a valid Config object' +
-                ' or set the environment variable CYPRESS_PROXIEDMAIL_API_KEY ' +
+                ' or set the environment variable PROXIEDMAIL_API_KEY ' +
                 'environment variable to the value of your ProxiedMail API Key to use the ProxiedMail Cypress plugin.'
                 + ' Create a free account at https://proxiedmail.com/en/singup'
             );
