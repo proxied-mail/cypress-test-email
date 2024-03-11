@@ -10,7 +10,7 @@ This library is using the base NodeJS library of [ProxiedMail](https://github.co
 ## Example
 
 In this example we're creating the email address and receiving the first mail.
-Also we asserting that subject and body is correct.
+Also, we're asserting that subject and body is correct.
 ```javascript
 describe('template spec', () => {
   it('testing email', {
@@ -85,7 +85,7 @@ describe('template spec', () => {
 
 - [API Documentation](https://docs.proxiedmail.com)
 - [ProxiedMail JS Client](https://github.com/proxied-mail/proxiedmail-js-client)
-- [This client on npm](https://www.npmjs.com/package/cypress-test-email
+- [This client on npm](https://www.npmjs.com/package/cypress-test-email)
 - [ProxiedMail](https://proxiedmail.com)
 
 ## Install

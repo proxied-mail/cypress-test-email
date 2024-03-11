@@ -1,6 +1,6 @@
 {
   "name": "cypress-test-email",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Package for testing email receiving in cypress",
   "main": "src/index.js",
   "scripts": {
