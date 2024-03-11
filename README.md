@@ -1,6 +1,6 @@
 # ProxiedMail Cypress Plugin
 Official ProxiedMail plugin for email testing with Cypress.
-This library is using the base NodeJS library of [ProxiedMail](https://github.com/proxied-mail/proxiedmail-js-client)
+This library is using the base NodeJS library of [ProxiedMail](https://github.com/proxied-mail/proxiedmail-js-client).
 
 ## Features
 - Create a new email address
