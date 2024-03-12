@@ -3,14 +3,14 @@ Official ProxiedMail plugin for email testing with Cypress.
 This library is using the base NodeJS library of [ProxiedMail](https://github.com/proxied-mail/proxiedmail-js-client).
 
 ## Features
-- Create a new email address
-- Receiving letters contents that was sent to generated emails
+- Creating a new email address
+- Receiving letter contents that were sent to generated emails
 - Receiving subject, body, html, headers of email
 
 ## Example
 
-In this example we're creating the email address and receiving the first mail.
-Also, we're asserting that subject and body is correct.
+In this example, we're creating the email address and receiving the first mail.
+Also, we're asserting that the subject and body are correct.
 ```javascript
 describe('template spec', () => {
   it('testing email', {
@@ -142,7 +142,7 @@ ProxiedMail requires timeouts in order to get your emails.
 Please adjust the timings where you have the email testings up to 10s (1000ms).
 
 ### Usage
-The Cypress ProxiedMail plugin provide one simple command attached to the Cypress object: cy.proxiedmail().
+The Cypress ProxiedMail plugin provides one simple command attached to the Cypress object: cy.proxiedmail().
 This method returns a ProxiedMail client instance that has all the same methods and properties as the official ProxiedMail client. 
 Use the command with the then() method to access the instance:
 ```javascript
