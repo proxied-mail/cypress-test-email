@@ -87,6 +87,9 @@ describe('template spec', () => {
 - [ProxiedMail JS Client](https://github.com/proxied-mail/proxiedmail-js-client)
 - [This client on npm](https://www.npmjs.com/package/cypress-test-email)
 - [ProxiedMail](https://proxiedmail.com)
+- [Email testing with Cypress in ProxiedMail Blog](https://proxiedmail.com/en/blog/testing-emails-with-cypress)
+- [Email testing with Cypress on Medium](https://medium.com/@yatsenkolesh/emails-testing-with-cypress-7ddf38e0b388)
+
 
 ## Install
 
